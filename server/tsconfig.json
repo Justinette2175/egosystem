@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6", // or a more recent ecmascript version,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "server/dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["ES6"]
+  },
+  "include": ["src/**/*", "src/migrations", "src/migrations"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
